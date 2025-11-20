@@ -24,7 +24,7 @@ const Dashboard = ({ onLogout, children }) => {
         } fixed inset-y-0 left-0 z-30 w-64 bg-indigo-700 dark:bg-gray-800 transition duration-300 ease-in-out transform lg:translate-x-0 lg:static lg:inset-0`}
       >
         <div className="flex items-center justify-center h-16 bg-indigo-800 px-4">
-          <h1 className="text-white text-xl font-bold">SyncSpace</h1>
+          <h1 className="text-white text-xl font-bold ">SyncSpace</h1>
         </div>
         <nav className="mt-5 px-2">
           <Link
@@ -38,7 +38,7 @@ const Dashboard = ({ onLogout, children }) => {
             to="/dashboard/projects"
             className="mt-1 group flex items-center px-2 py-2 text-base font-medium rounded-md text-indigo-100 hover:bg-indigo-600 hover:bg-opacity-75"
           >
-            <span className="mr-3">📂</span>
+            <span className="mr-3 ">📂</span>
             Projects
           </Link>
           <Link
